@@ -1,0 +1,36 @@
+.projectContainer img{
+    width: 300px;
+    height: 200px;
+}
+.projectContainer h3{
+    color: gray;
+    font-size: 20xp;
+}
+.projectContainer p {
+    font-size: 17px;
+    padding: 4px;
+}
+
+.projectContainer{
+    text-align: center;
+    display: inline-block;
+    margin: 10px ;
+    max-width: 300px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .2);
+}
+.projectContainer button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.projectContainer button:hover{
+    opacity: 0.5;
+}

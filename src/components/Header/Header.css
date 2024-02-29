@@ -1,0 +1,27 @@
+.headerContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+.headerContainer h2{
+    padding: 1vh;
+    width: 25%;
+    background-color: teal;
+    cursor: pointer;
+    
+}
+
+.headerContainer h2:hover{
+    position: relative;
+    top:2px;
+    opacity: .7;
+
+}
+
+.headerContainer a{
+    text-decoration: none;
+    color: white;
+}
