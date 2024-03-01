@@ -23,14 +23,15 @@ export default class Profile extends Component {
           {this.state.displayBio ? (
             <div>
               <p> احب القراءة و كرة القدم كثيرا</p>
-              <p>... فريقي المفضل هو </p>
+              <p> شيخي المفضل هو الشيخ</p>
+              <p> محمد صديق المنشاوي </p>
               <button onClick={this.toggle} className="click_me">
-                Hide
+                أخفي{" "}
               </button>
             </div>
           ) : (
             <button onClick={this.toggle} className="click_me">
-              Show more
+              أظهر المزيد
             </button>
           )}
         </div>

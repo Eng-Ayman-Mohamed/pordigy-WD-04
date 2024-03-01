@@ -7,8 +7,11 @@ function Project({ details }) {
       <img src={details.img} alt=""></img>
       <h3>{details.name}</h3>
       <p>{details.desc} </p>
+      <a href={details.repo} target="_blank" rel="noreferrer">
+        <button> المخزن </button>
+      </a>
       <a href={details.link} target="_blank" rel="noreferrer">
-        <button> Repo </button>
+        <button> الموقع </button>
       </a>
     </div>
   );

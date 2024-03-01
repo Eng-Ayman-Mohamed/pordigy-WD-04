@@ -1,28 +1,40 @@
 import firstImage from "../imgs/img1.jpg";
 import secondImage from "../imgs/img2.jpg";
 import thirdImage from "../imgs/img3.jpg";
+import ForthImage from "../imgs/img4.jpg";
 
 const MyProjects = [
   {
     id: "1",
-    name: "My first project",
-    desc: "This was my first project ever",
+    name: "ساعة توقف",
+    desc: "محاكي لساعة توقف بسيطه حيث يمكنك التشغيل و الايقاف المؤقت او تسجيل دورات  ",
     img: firstImage,
-    link: "https://github.com/Eng-Ayman-Mohamed/",
+    link: "xyz.com",
+    repo: "https://github.com/Eng-Ayman-Mohamed/prodigy-WD-02",
   },
   {
     id: "2",
-    name: "Second Project",
-    desc: "This was my second project",
+    name: "تيك تاك تو",
+    desc: "محاكي للعبة تيك تاك تو التي يمكنك ان تلعبها مع اصدقائك او مع الحاسوب",
     img: secondImage,
-    link: "https://github.com/Eng-Ayman-Mohamed/",
+    link: "https://pordigy-wd-03.vercel.app/",
+    repo: "https://github.com/Eng-Ayman-Mohamed/pordigy-WD-03",
   },
   {
     id: "3",
-    name: "Third project",
-    desc: "This was my  Third project",
+    name: "pixely",
+    desc: "موقع يعرض مجموعه من الصور بحيث يمكنك البحث عن العديد من الموضوعات المختلفه و ايضا يمكنك ان تبدل بين وضع النهار و الليل",
     img: thirdImage,
-    link: "https://github.com/Eng-Ayman-Mohamed/",
+    link: "https://pexely.vercel.app/",
+    repo: "https://github.com/Eng-Ayman-Mohamed/pexely",
+  },
+  {
+    id: "3",
+    name: "امثالي",
+    desc: "موقع الكتروني يمكنك من خلاله قراءة العديد من الامثال العربية و اضافة امثال جديدة",
+    img: ForthImage,
+    link: "https://amthaly.vercel.app/",
+    repo: "https://github.com/Eng-Ayman-Mohamed/Amthaly",
   },
 ];
 

@@ -3,18 +3,18 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="headerContainer">
-      <h2>
-        <a href="#home">Home</a>
-      </h2>
-      <h2>
-        <a href="#about">About</a>
-      </h2>
-      <h2>
-        <a href="#projects">Projects</a>
-      </h2>
-      <h2>
-        <a href="#contact">Contact</a>
-      </h2>
+      <a href="#home">
+        <h2>الرئيسيه</h2>
+      </a>
+      <a href="#about">
+        <h2>عَنِّي</h2>
+      </a>
+      <a href="#projects">
+        <h2>مشاريعي</h2>
+      </a>
+      <a href="#contact">
+        <h2>تواصل معي</h2>
+      </a>
     </div>
   );
 };

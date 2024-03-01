@@ -6,22 +6,24 @@
     position: fixed;
     top: 0;
 }
-.headerContainer h2{
-    padding: 1vh;
+.headerContainer a{
+    
     width: 25%;
     background-color: teal;
     cursor: pointer;
+    margin-top: 0;
+    text-decoration: none;
     
 }
 
-.headerContainer h2:hover{
+.headerContainer a:hover{
     position: relative;
     top:2px;
     opacity: .7;
 
 }
 
-.headerContainer a{
-    text-decoration: none;
+.headerContainer h2{
+  
     color: white;
 }
