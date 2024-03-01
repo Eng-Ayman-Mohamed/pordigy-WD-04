@@ -17,7 +17,7 @@ export default class App extends Component {
         </div>
         <div className="App">
           <div id="home">
-            <div style={{ height: "8vh" }}></div>
+            <div className="temp"></div>
             <div className="row">
               <div>
                 <Title />

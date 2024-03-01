@@ -15,6 +15,7 @@ const About = () => {
       <p align="center">
         <a href="https://skillicons.dev">
           <img
+            style={{ maxWidth: "-webkit-fill-available" }}
             alt=""
             src="https://skillicons.dev/icons?i=react,tailwind,figma,js,html,css,vscode,github,c,cpp,java,mysql,dart,flutter,androidstudio"
           />
